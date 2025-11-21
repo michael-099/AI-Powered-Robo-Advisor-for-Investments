@@ -46,16 +46,12 @@ scoring = {
 
 
 def get_category(score):
-    if score <= 18:
-        return "Very Low"
-    elif score <= 25:
+    if score <= 25:
         return "Low"
     elif score <= 33:
         return "Moderate"
-    elif score <= 40:
+    elif score >= 33:
         return "High"
-    else:
-        return "Very High"
 
 
 print("=== Grable & Lytton 13-Item Financial Risk Tolerance Quiz ===\n")

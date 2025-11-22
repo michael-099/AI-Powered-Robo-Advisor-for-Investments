@@ -54,7 +54,7 @@ def get_category(score):
         return "High"
 
 
-print("=== Grable & Lytton 13-Item Financial Risk Tolerance Quiz ===\n")
+print("== Grable & Lytton Financial Risk Tolerance Quiz ===\n")
 print(
     "Answer each question by typing only the letter (a, b, c, or d) and press Enter.\n"
 )
